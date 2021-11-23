@@ -20,3 +20,26 @@ b=num;
 }
 printf("\n Second highest number=%d",b);
 }
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int temp,n;
+    printf(" limit:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        printf("num:");
+        scanf("%d",&temp);
+        sec=temp;
+        if(sec<temp)
+        {
+            sec=temp;
+        }
+    }
+
+    return 0;
+}
